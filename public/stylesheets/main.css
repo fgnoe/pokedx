@@ -1,27 +1,27 @@
 .jumbotron {
-  background: #532F8C;
+  background: #ff4545;
   color: white;
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
+    background: #ff0000;
+    border-color: #ffffff; }
     .jumbotron .btn-primary:hover {
-      background: #7646c1; }
+      background: #ff6161; }
   .jumbotron p {
-    color: #d9ccee;
+    color: #e3dfeb;
     max-width: 75%;
     margin: 1em auto 2em; }
   .navbar + .jumbotron {
     margin-top: -20px; }
-  .jumbotron .lang-logo {
+  .jumbotron .pokeball {
     display: block;
-    background: #B01302;
+    background: rgb(255, 255, 255);
     border-radius: 50%;
     overflow: hidden;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
+    border: 1px solid rgb(0, 0, 0); }
+    .jumbotron .pokeball img {
       max-width: 100%; }
 

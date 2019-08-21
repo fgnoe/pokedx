@@ -2,6 +2,7 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+  
 </head>
 
 <body>
@@ -9,8 +10,17 @@
   <% include ../partials/nav.ejs %>
 
 <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="pokeball">
+      <img src="/poke.png">
+    </a>
+    <h1>Pokedex</h1>
+    <p>Gotta catch 'em all!</p>
+    <a type="button" class="btn btn-lg btn-default" href="../pages/pokedx.ejs"><span class="glyphicon glyphicon-flash"></span> First generation Pokedex</a>
+    <a type="button" class="btn btn-lg btn-primary" href="../pages/natpoke.ejs"><span class="glyphicon glyphicon-record"></span> National Pokedex</a>
+  </div>
   
 
-
+  <script type="text/javascript" src="/javascript/load-pokemon.js"></script>
 </body>
 </html>
